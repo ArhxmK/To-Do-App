@@ -37,11 +37,12 @@ cd To-Do-App
     ```
 3. Create the `tasks` table:
     ```sql
-    CREATE TABLE tasks (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        task VARCHAR(255) NOT NULL,
-        completed TINYINT(1) DEFAULT 0
-    );
+
+    CREATE TABLE `tasks` (
+        id int(11) NOT NULL,
+        task varchar(255) NOT NULL,
+        completed int(11) DEFAULT 0
+     ); 
     ```
 
 ### 3. Configure the Application
